@@ -1,9 +1,13 @@
 :root {
+    /* light theme */
     --font-color: black;
     --background-color: white;
+    --link-color: blue;
 
+    /* dark theme */
     --font-color-dark: white;
     --background-color-dark: black;
+    --link-color-dark: lightblue;
 }
 
 body {
@@ -13,7 +17,7 @@ body {
 
 a,
 a:visited {
-    color: blue;
+    color: var(--link-color);
 }
 
 body.dark {
@@ -23,5 +27,5 @@ body.dark {
 
 .dark a,
 .dark a:visited {
-    color: lightblue;
+    color: var(--link-color-dark);
 }
