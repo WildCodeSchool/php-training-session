@@ -1,0 +1,27 @@
+:root {
+    --font-color: black;
+    --background-color: white;
+
+    --font-color-dark: white;
+    --background-color-dark: black;
+}
+
+body {
+    color: var(--font-color);
+    background-color: var(--background-color);
+}
+
+a,
+a:visited {
+    color: blue;
+}
+
+body.dark {
+    color: var(--font-color-dark);
+    background-color: var(--background-color-dark);
+}
+
+.dark a,
+.dark a:visited {
+    color: lightblue;
+}
