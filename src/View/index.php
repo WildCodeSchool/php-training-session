@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Website Ever - Home</title>
-    <!-- TODO: look at the stylesheet and atch how the dark theme works -->
+    <!-- TODO: look at the stylesheet and watch how the dark theme works -->
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
