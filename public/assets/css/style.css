@@ -31,3 +31,14 @@ body.dark {
 .dark a:visited {
     color: var(--link-color-dark);
 }
+
+/* navigation */
+nav ul {
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+}
+
+nav li {
+    list-style: none;
+}

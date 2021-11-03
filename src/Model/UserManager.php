@@ -2,17 +2,19 @@
 
 namespace App\Model;
 
-class UserModel
+class UserManager
 {
     private array $testUser;
 
     public function __construct()
     {
         $this->testUser = [
-            'email' => 'tacos@mail.com',
+            'email' => 'ronnie@example.com',
             'password' => password_hash('tacostacos', PASSWORD_DEFAULT),
-            'avatar' => 'https://randomuser.me/api/portraits/men/70.jpg',
-            'phone' => '(911)-579-9788'
+            'firstname' => 'Ronnie',
+            'lastname' => 'Montgomery',
+            'picture' => 'https://randomuser.me/api/portraits/men/70.jpg',
+            'phone' => '(911)-579-9788',
         ];
     }
 
